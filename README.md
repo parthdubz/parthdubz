@@ -23,8 +23,11 @@ Every project I build is an experiment in system intelligence.
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) 
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-%23FF9900?style=for-the-badge&logo=huggingface&logoColor=white)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=parthdubz&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### 🔝 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=parthdubz&show_icons=true&theme=dark)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=parthdubz&layout=compact&theme=dark)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=parthdubz&icon=0&color=1)](https://visitcount.itsvg.in)
+
+![Profile Views](https://views.whatshappening.dev/views/github/parthdubz.png)
