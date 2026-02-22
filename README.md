@@ -1,33 +1,49 @@
-# About Me
-Student developer exploring the intersection of computer vision and large language models.  
-I design end-to-end AI systems that integrate perception pipelines (OpenCV, MediaPipe), generative reasoning models (LLMs), and production-ready backend infrastructure. My focus is on building AI that is not only intelligent in isolation, but coherent and reliable as a complete system.
+<h1 align="center">Hey 👋 What's Up?</h1>
 
-I’m particularly interested in:
+### About Me
+Student developer exploring the intersection of computer vision and large language models.  
+I design end-to-end AI systems that integrate perception pipelines (OpenCV, MediaPipe), generative reasoning models (LLMs), and production-ready backend infrastructure.  
+I treat every project as an experiment in system intelligence.
+
+I’m particularly interested in:  
 
 • Multimodal AI systems  
 • Real-time inference architectures  
 • Human-AI interaction  
 • Applied AI in healthcare contexts  
 
-I treat every project as an experiment in system intelligence.
-
 ---
 
 ## 🌐 Socials
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/parth_dubz) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/parthmahato)
+[![Instagram](https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&style=for-the-badge)](https://instagram.com/parth_dubz)  
+[![LinkedIn](https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge)](https://linkedin.com/in/parthmahato)  
+[![Twitter](https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&style=for-the-badge)](https://twitter.com/parthdubz)  
 
 ---
 
 ## 💻 Tech Stack
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,python,c,ts,nextjs,tailwind,graphql,go,rust,nestjs,aws" height="50" />
+</div>
 
 ---
 
-## 🌟 GitHub Stats
-![Profile Views](https://komarev.com/ghpvc/?username=parthdubz&color=brightgreen)  
-![Top Languages](https://img.shields.io/github/languages/top/parthdubz?style=for-the-badge)  
-![Total Repos](https://img.shields.io/github/repos/parthdubz?style=for-the-badge)
+## 📊 GitHub Stats
+<div align="center">
+  ![GitHub Streak](https://streak-stats.demolab.com?user=parthdubz&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3)
+  <br>
+  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=parthdubz&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false)
+</div>
+
+---
+
+## 👾 Pacman Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parthdubz/parthdubz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parthdubz/parthdubz/output/pacman-contribution-graph.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/parthdubz/parthdubz/output/pacman-contribution-graph.svg">
+</picture>
+
+---
+
+[![](https://visitcount.itsvg.in/api?id=parthdubz&icon=0&color=1)](https://visitcount.itsvg.in)
