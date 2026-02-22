@@ -25,8 +25,8 @@ Every project I build is an experiment in system intelligence.
 
 ### 🔝 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=parthdubz&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=parthdubz&layout=compact&theme=dark)
+![GitHub Badge](https://img.shields.io/badge/GitHub-ParthDubz-181717?style=for-the-badge&logo=github)
+![Top Language](https://img.shields.io/github/languages/top/parthdubz?style=for-the-badge)
 
 ---
 
