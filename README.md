@@ -25,9 +25,9 @@ Every project I build is an experiment in system intelligence.
 
 ### 🔝 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=parthdubz&show_icons=true&theme=dark)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=parthdubz&show_icons=true&theme=dark)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=parthdubz&layout=compact&theme=dark)
 
 ---
 
-![Profile Views](https://views.whatshappening.dev/views/github/parthdubz.png)
+![Profile Views](https://komarev.com/ghpvc/?username=parthdubz&color=brightgreen)
