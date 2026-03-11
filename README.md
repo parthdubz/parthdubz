@@ -1,9 +1,5 @@
-<div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
-
-# Hey 👋 I'm Parth Mahato
-###
+<img style="width:100%" 
+src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=0:53a8b6,100:53a8b6&fontAlignY=65" />
 
 <p align="left">
 Student developer exploring the intersection of computer vision and large language models.  <br>
@@ -32,17 +28,32 @@ I treat every project as an experiment in system intelligence.
 ---
 
 ### 💻 Tech Stack
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=javascript" height="60" alt="JavaScript"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=python" height="60" alt="Python"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=c" height="60" alt="C"/>
-</div>
+<table>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Backend:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=python,nodejs,fastapi,flask"/>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Frontend:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=html,css,js"/>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Database:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=mysql,mongodb,supabase"/>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">IDEs:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=vscode,pycharm,devcpp"/>
+        </td>
+    </tr>
+</table>
 
 ---
 
