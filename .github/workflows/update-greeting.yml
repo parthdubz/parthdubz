@@ -1,0 +1,58 @@
+name: Update Greeting
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:     # Allows manual run
+
+jobs:
+  update-greeting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Update greeting in README
+        run: |
+          from datetime import datetime
+          import pytz
+          import re
+
+          # Load README
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Nepal timezone
+          tz = pytz.timezone("Asia/Kathmandu")
+          hour = datetime.now(tz).hour
+
+          # Determine greeting
+          if 5 <= hour < 12:
+              greeting = "Good Morning"
+          elif 12 <= hour < 17:
+              greeting = "Good Afternoon"
+          elif 17 <= hour < 20:
+              greeting = "Good Evening"
+          else:
+              greeting = "Good Night"
+
+          # Replace placeholder
+          new_content = re.sub(r'__GREETING__', greeting, content)
+
+          # Save README
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update greeting based on Nepal time" || echo "No changes to commit"
+          git push
