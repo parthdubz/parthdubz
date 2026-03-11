@@ -1,8 +1,8 @@
-name: Update Greeting
+name: Update Dynamic Greeting
 
 on:
   schedule:
-    - cron: '0 * * * *'  # runs every hour
+    - cron: '0 * * * *'  # every hour
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
           import urllib.parse
           import re
 
-          # Nepal timezone
+          # Nepal time
           tz = pytz.timezone("Asia/Kathmandu")
           hour = datetime.now(tz).hour
 
@@ -37,28 +37,32 @@ jobs:
           # Add waving emoji
           greeting += " 👋"
 
-          # URL encode for Capsule Render
+          # URL encode
           greeting_encoded = urllib.parse.quote(greeting)
 
-          # Load README
+          # Add cache-busting timestamp
+          timestamp = int(datetime.now(tz).timestamp())
+          cache_param = f"?v={timestamp}"
+
+          # Read README
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
 
-          # Replace placeholder in Capsule Render URL
-          new_content = re.sub(
-              r'https://capsule-render\.vercel\.app/api\?type=waving.*?text=.*?&fontSize=60',
-              f'https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text={greeting_encoded}&fontSize=60',
-              content
-          )
+          # Replace placeholder __GREETING__ with encoded greeting + cache param
+          new_content = re.sub(r'__GREETING__', f'{greeting_encoded}{cache_param}', content)
 
-          # Save README
-          with open("README.md", "w", encoding="utf-8") as f:
-              f.write(new_content)
+          # Write README only if changed
+          if new_content != content:
+              with open("README.md", "w", encoding="utf-8") as f:
+                  f.write(new_content)
+              print("README updated")
+          else:
+              print("No changes needed")
 
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update greeting based on Nepal time" || echo "No changes to commit"
+          git diff --staged --quiet || git commit -m "Update greeting automatically"
           git push
