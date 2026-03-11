@@ -2,31 +2,23 @@ name: Update Greeting
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:     # Allows manual run
+    - cron: '0 * * * *'  # runs every hour
+  workflow_dispatch:
 
 jobs:
   update-greeting:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
 
       - name: Update greeting in README
         run: |
           from datetime import datetime
           import pytz
+          import urllib.parse
           import re
-
-          # Load README
-          with open("README.md", "r", encoding="utf-8") as f:
-              content = f.read()
 
           # Nepal timezone
           tz = pytz.timezone("Asia/Kathmandu")
@@ -42,8 +34,22 @@ jobs:
           else:
               greeting = "Good Night"
 
-          # Replace placeholder
-          new_content = re.sub(r'__GREETING__', greeting, content)
+          # Add waving emoji
+          greeting += " 👋"
+
+          # URL encode for Capsule Render
+          greeting_encoded = urllib.parse.quote(greeting)
+
+          # Load README
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Replace placeholder in Capsule Render URL
+          new_content = re.sub(
+              r'https://capsule-render\.vercel\.app/api\?type=waving.*?text=.*?&fontSize=60',
+              f'https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text={greeting_encoded}&fontSize=60',
+              content
+          )
 
           # Save README
           with open("README.md", "w", encoding="utf-8") as f:
