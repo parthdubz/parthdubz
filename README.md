@@ -17,10 +17,10 @@ I treat every project as an experiment in system intelligence.
 
 ### 🌐 Socials
 <div align="center">
-  <a href="https://instagram.com/parth_dubz">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge" alt="Instagram"/>
+  <a href="https://www.facebook.com/profile.php?id=61579786233519">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge" alt="Instagram"/>
   </a>
-  <a href="https://linkedin.com/in/parthmahato">
+  <a href="https://linkedin.com/in/parth-mahato">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=LinkedIn&logoColor=white&style=for-the-badge" alt="LinkedIn"/>
   </a>
 </div>
