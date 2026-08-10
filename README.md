@@ -58,9 +58,7 @@ I treat every project as an experiment in system intelligence.
 ---
 
 ### 📊 GitHub Stats
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=parthdubz&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="GitHub Streaks"/>
-</div>
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app/?user=parthdubz&theme=dracula&hide_border=false&border_radius=5)
 
 ---
 
