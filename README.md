@@ -70,7 +70,7 @@ I treat every project as an experiment in system intelligence.
 
 ---
 
-**🏆 Achievement:**  
+**🏆 Achievement:** <br> 
 St. Xavier's SET Exhibition 30 — 1st Runner Up
 
 ---
