@@ -1,23 +1,14 @@
 <picture>
-  <!-- Dark mode -->
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=53a8b6&fontAlignY=65"
-  />
+<source media="(prefers-color-scheme: dark)"
+srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=000000&color=0:53a8b6,100:53a8b6&fontAlignY=65">
 
-  <!-- Light mode -->
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=000000&color=53a8b6&fontAlignY=65"
-  />
+<source media="(prefers-color-scheme: light)"
+srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=0:53a8b6,100:53a8b6&fontAlignY=65">
 
-  <!-- Fallback -->
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=000000&color=53a8b6&fontAlignY=65"
-    alt="Hey, I'm Parth Mahato"
-  />
+<img width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=0:53a8b6,100:53a8b6&fontAlignY=65">
 </picture>
+
 <p align="left">
 Student developer exploring the intersection of computer vision and large language models.  <br>
 I design end-to-end AI systems that integrate perception pipelines (OpenCV, MediaPipe), generative reasoning models (LLMs), and production-ready backend infrastructure.  <br>
