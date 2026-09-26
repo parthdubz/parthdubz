@@ -1,7 +1,3 @@
-<div align="center">
-    <img width="300" src="./assets/main.gif"/>
-    <br/><br/>
-</div>
 
 <div align="center">
     <img width=300 src="./assets/main.gif"/>    
