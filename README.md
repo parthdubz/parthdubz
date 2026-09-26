@@ -1,13 +1,14 @@
-<picture>
-<source media="(prefers-color-scheme: dark)"
-srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=000000&color=0:53a8b6,100:53a8b6&fontAlignY=65">
+<div align="center">
+    <img width="300" src="./assets/main.gif"/>
+    <br/><br/>
+</div>
 
-<source media="(prefers-color-scheme: light)"
-srcset="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=0:53a8b6,100:53a8b6&fontAlignY=65">
-
-<img width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Hey%20,%20I'm%20Parth%20Mahato&fontSize=60&fontColor=FFFFFF&color=0:53a8b6,100:53a8b6&fontAlignY=65">
-</picture>
+<div align="center">
+    <img width=300 src="./assets/main.gif"/>    
+    <br/>
+    <br/>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+PARTH!" alt="Typing SVG" /></a>
+</div>
 
 <p align="left">
 Student developer exploring the intersection of computer vision and large language models.  <br>
